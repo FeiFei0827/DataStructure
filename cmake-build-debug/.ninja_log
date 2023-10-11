@@ -1,0 +1,10 @@
+# ninja log v5
+1	299	7187121140490269	build.ninja	2a7bbf70ce375cc7
+0	544	7187121147295132	CMakeFiles/DataStructure.dir/Vector.cpp.obj	13697b21fc39a89d
+546	765	7187121149460029	DataStructure.exe	47cfb298db7db00
+3	670	7187122788006405	CMakeFiles/DataStructure.dir/Vector.cpp.obj	13697b21fc39a89d
+671	790	7187122789168807	DataStructure.exe	47cfb298db7db00
+2	626	7187123169533292	CMakeFiles/DataStructure.dir/Vector.cpp.obj	13697b21fc39a89d
+626	759	7187123170804568	DataStructure.exe	47cfb298db7db00
+3	522	7187127626802948	CMakeFiles/DataStructure.dir/Vector.cpp.obj	13697b21fc39a89d
+522	658	7187127628114760	DataStructure.exe	47cfb298db7db00

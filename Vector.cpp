@@ -179,7 +179,7 @@ int Vector<T>::deuplicate()
         return 0;
     int i = 0;
     Rank size = _size;
-    while (i <= _size)
+    while (i < _size)
     {
         if (_elem[i] = _elem[++i])
             remove(i);
@@ -219,9 +219,9 @@ struct PrintElement {
 };
 //同样是gpt实现
 int main() {
-    int a[]{ 1,2,2,4,5,6 };
+    int a[]{ 2,2 };
     // 向myVector添加元素...
-    Vector<int> b(a, 6);
+    Vector<int> b(a,2);
     // 创建一个PrintElement对象并使用它来打印向量中的每个元素
     PrintElement<int> printElement;
     b.traverse(printElement);
