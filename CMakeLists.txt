@@ -3,4 +3,8 @@ project(DataStructure)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(DataStructure Vector.cpp)
+add_executable(DataStructure
+        main.cpp
+        Vector.h
+        Vector.cpp
+        fibonacci.h)
