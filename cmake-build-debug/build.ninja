@@ -49,6 +49,12 @@ cmake_ninja_workdir = D$:/study/github$ repositories/DataStructure/cmake-build-d
 
 build cmake_object_order_depends_target_DataStructure: phony || CMakeFiles/DataStructure.dir
 
+build CMakeFiles/DataStructure.dir/main.cpp.obj: CXX_COMPILER__DataStructure_unscanned_Debug D$:/study/github$ repositories/DataStructure/main.cpp || cmake_object_order_depends_target_DataStructure
+  DEP_FILE = CMakeFiles\DataStructure.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DataStructure.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructure.dir
+
 build CMakeFiles/DataStructure.dir/Vector.cpp.obj: CXX_COMPILER__DataStructure_unscanned_Debug D$:/study/github$ repositories/DataStructure/Vector.cpp || cmake_object_order_depends_target_DataStructure
   DEP_FILE = CMakeFiles\DataStructure.dir\Vector.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -63,7 +69,7 @@ build CMakeFiles/DataStructure.dir/Vector.cpp.obj: CXX_COMPILER__DataStructure_u
 #############################################
 # Link the executable DataStructure.exe
 
-build DataStructure.exe: CXX_EXECUTABLE_LINKER__DataStructure_Debug CMakeFiles/DataStructure.dir/Vector.cpp.obj
+build DataStructure.exe: CXX_EXECUTABLE_LINKER__DataStructure_Debug CMakeFiles/DataStructure.dir/main.cpp.obj CMakeFiles/DataStructure.dir/Vector.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DataStructure.dir
